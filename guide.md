@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Pre-Session Checklist (Do This Before We Meet)
+## Pre-Session Checklist (Do This Before We Meet)
 
 - [ ] Update **Claude Desktop** to the latest version → open Claude Desktop → Help → Check for Updates
 - [ ] Update **Google Chrome** to the latest version → `chrome://settings/help`
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔍 Understanding What's Happening (Plain English)
+## Understanding What's Happening (Plain English)
 
 Think of it like a telephone directory. When Claude Desktop installs, it writes a small configuration file (like a phone book entry) that tells Chrome: *"To reach me, call this program."*
 
@@ -29,7 +29,7 @@ Our job is simply to find that broken entry and fix it.
 
 ---
 
-## 🖥️ Section 1 — macOS Users
+## Section 1 — macOS Users
 
 ### Step 1: Open Terminal
 Press **Cmd + Space**, type `Terminal`, press Enter.
@@ -93,7 +93,7 @@ Copy and paste the output — share it with me before the call.
 
 ---
 
-## 🪟 Section 2 — Windows Users
+## Section 2 — Windows Users
 
 ### Step 1: Open Command Prompt
 Press **Win + R**, type `cmd`, press Enter.
@@ -124,7 +124,7 @@ Open `chrome-native-host.log` with Notepad. Copy the last 50 lines and share the
 
 ---
 
-## 🧩 Section 3 — Check the Chrome Extension Itself
+## Section 3 — Check the Chrome Extension Itself
 
 1. Open Chrome and go to: `chrome://extensions`
 2. Find **Claude in Chrome** in the list
@@ -146,7 +146,7 @@ Open `chrome-native-host.log` with Notepad. Copy the last 50 lines and share the
 
 ---
 
-## ⚙️ Section 4 — Check Claude Desktop Settings
+## Section 4 — Check Claude Desktop Settings
 
 Inside Claude Desktop:
 
@@ -159,7 +159,7 @@ If the toggle is off, the helper binary never starts, and Chrome cannot connect 
 
 ---
 
-## 🔧 Section 5 — Fixes We Will Apply Together on the Call
+## Section 5 — Fixes We Will Apply Together on the Call
 
 We will not do these alone — we'll walk through them together on Zoom. Listed here so you know what to expect:
 
@@ -197,7 +197,7 @@ After any fix, always do this in order:
 
 ---
 
-## ✅ How to Confirm It's Working
+## How to Confirm It's Working
 
 After our fix, you should see:
 
@@ -207,34 +207,5 @@ After our fix, you should see:
 
 If all three work — you're done! ✅
 
----
-
-## ❓ FAQs
-
-**Q: Do I need to share my password or account with you?**
-No. We only need a Zoom screen share. No credentials are ever shared.
-
-**Q: What if I'm on Brave, Arc, or another browser?**
-Claude in Chrome only officially supports **Google Chrome** and **Microsoft Edge**. If you're on another browser, that is the issue — you'll need to switch to Chrome for Cowork mode.
-
-**Q: Can I use Claude Code and Claude Desktop Cowork at the same time?**
-Not with the same Chrome extension simultaneously. They compete for the same native messaging channel. You can switch between them, but only one can be active at a time.
-
-**Q: Will this fix break anything else?**
-No. All changes we make are reversible. The `.backup` rename can be undone anytime, and reinstalling Claude Desktop is non-destructive to your data.
-
----
-
-## 📞 Before Our Zoom Call — Please Send Me:
-
-1. Screenshot of your `NativeMessagingHosts` folder contents (Step 1 in your OS section)
-2. Screenshot of the JSON file contents (Step 3 in your OS section)
-3. Screenshot of the Chrome extension Console errors (Section 3)
-4. Your OS: Mac or Windows, and which version
-5. Whether you have **Claude Code** installed in addition to Claude Desktop
-
-This lets me prepare the exact fix before we even start the call, so we resolve it in under 15 minutes.
-
----
 
 *Guide prepared by your freelancer for the Zoom troubleshooting session.*
